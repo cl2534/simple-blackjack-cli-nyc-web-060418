@@ -39,7 +39,7 @@ def hit?(total)
     return total 
   elsif get_user_input() == 'h'
     total += deal_card()
-    return total  
+    return total.to_i   
   else 
     puts "Please enter a valid command"
     prompt_user()
