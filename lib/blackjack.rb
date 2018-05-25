@@ -29,10 +29,14 @@ def initial_round
   # code #initial_round here
   sum = deal_card() + deal_card()
   display_card_total(sum)
+  sum 
 end
 
-def hit?
+def hit?(total)
   # code hit? here
+  prompt_user()
+  get_user_input() ? 's' 
+  
 end
 
 def invalid_command
