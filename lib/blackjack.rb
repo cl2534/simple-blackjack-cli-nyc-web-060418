@@ -35,7 +35,8 @@ end
 def hit?(total)
   # code hit? here
   prompt_user()
-  get_user_input() ? 's' 
+  if get_user_input() == 's'
+    
   
 end
 
